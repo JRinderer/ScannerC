@@ -1,3 +1,3 @@
-/home/jrinder/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/jrinder/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/jrinder/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/untitled2.dir
+/home/jrinder/CLionProjects/Scanner/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/jrinder/CLionProjects/Scanner/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/jrinder/CLionProjects/Scanner/cmake-build-debug/CMakeFiles/untitled2.dir

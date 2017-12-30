@@ -10,33 +10,33 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/jrinder/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/3.5.1/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/jrinder/CLionProjects/Scanner/cmake-build-debug/CMakeFiles/3.5.1/CompilerIdC/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/jrinder/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/jrinder/CLionProjects/Scanner/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4373e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4373e.dir/build.make CMakeFiles/cmTC_4373e.dir/build
-make[1]: Entering directory '/home/jrinder/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_4373e.dir/testCCompiler.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_4373e.dir/testCCompiler.c.o   -c /home/jrinder/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_4373e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4373e.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_4373e.dir/testCCompiler.c.o  -o cmTC_4373e 
-make[1]: Leaving directory '/home/jrinder/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_d09c5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d09c5.dir/build.make CMakeFiles/cmTC_d09c5.dir/build
+make[1]: Entering directory '/home/jrinder/CLionProjects/Scanner/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d09c5.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_d09c5.dir/testCCompiler.c.o   -c /home/jrinder/CLionProjects/Scanner/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_d09c5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d09c5.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_d09c5.dir/testCCompiler.c.o  -o cmTC_d09c5 
+make[1]: Leaving directory '/home/jrinder/CLionProjects/Scanner/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/jrinder/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/jrinder/CLionProjects/Scanner/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ff029/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ff029.dir/build.make CMakeFiles/cmTC_ff029.dir/build
-make[1]: Entering directory '/home/jrinder/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ff029.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_ff029.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_ff029
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff029.dir/link.txt --verbose=1
-/usr/bin/cc      -v CMakeFiles/cmTC_ff029.dir/CMakeCCompilerABI.c.o  -o cmTC_ff029  
+Run Build Command:"/usr/bin/make" "cmTC_2c4d7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2c4d7.dir/build.make CMakeFiles/cmTC_2c4d7.dir/build
+make[1]: Entering directory '/home/jrinder/CLionProjects/Scanner/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2c4d7.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_2c4d7.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_2c4d7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c4d7.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_2c4d7.dir/CMakeCCompilerABI.c.o  -o cmTC_2c4d7  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
@@ -46,23 +46,23 @@ Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.5) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ff029' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccgxU066.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_ff029 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_ff029.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
-make[1]: Leaving directory '/home/jrinder/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2c4d7' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccL9rxcC.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_2c4d7 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_2c4d7.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/jrinder/CLionProjects/Scanner/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/jrinder/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/jrinder/CLionProjects/Scanner/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_ff029/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_ff029.dir/build.make CMakeFiles/cmTC_ff029.dir/build]
-  ignore line: [make[1]: Entering directory '/home/jrinder/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_ff029.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_ff029.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_ff029]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff029.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_ff029.dir/CMakeCCompilerABI.c.o  -o cmTC_ff029  ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_2c4d7/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_2c4d7.dir/build.make CMakeFiles/cmTC_2c4d7.dir/build]
+  ignore line: [make[1]: Entering directory '/home/jrinder/CLionProjects/Scanner/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_2c4d7.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_2c4d7.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_2c4d7]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c4d7.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_2c4d7.dir/CMakeCCompilerABI.c.o  -o cmTC_2c4d7  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
@@ -72,13 +72,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.5) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ff029' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccgxU066.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_ff029 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_ff029.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2c4d7' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccL9rxcC.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_2c4d7 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_2c4d7.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccgxU066.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccL9rxcC.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -95,7 +95,7 @@ Parsed C implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_ff029] ==> ignore
+    arg [cmTC_2c4d7] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
@@ -107,7 +107,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_ff029.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_2c4d7.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -139,17 +139,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/jrinder/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/jrinder/CLionProjects/Scanner/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6971f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_6971f.dir/build.make CMakeFiles/cmTC_6971f.dir/build
-make[1]: Entering directory '/home/jrinder/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_6971f.dir/feature_tests.c.o
-/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_6971f.dir/feature_tests.c.o   -c /home/jrinder/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_6971f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6971f.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_6971f.dir/feature_tests.c.o  -o cmTC_6971f 
-make[1]: Leaving directory '/home/jrinder/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_ad385/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ad385.dir/build.make CMakeFiles/cmTC_ad385.dir/build
+make[1]: Entering directory '/home/jrinder/CLionProjects/Scanner/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ad385.dir/feature_tests.c.o
+/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_ad385.dir/feature_tests.c.o   -c /home/jrinder/CLionProjects/Scanner/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_ad385
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad385.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_ad385.dir/feature_tests.c.o  -o cmTC_ad385 
+make[1]: Leaving directory '/home/jrinder/CLionProjects/Scanner/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -159,17 +159,17 @@ make[1]: Leaving directory '/home/jrinder/CLionProjects/untitled2/cmake-build-de
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/jrinder/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/jrinder/CLionProjects/Scanner/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f2241/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f2241.dir/build.make CMakeFiles/cmTC_f2241.dir/build
-make[1]: Entering directory '/home/jrinder/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f2241.dir/feature_tests.c.o
-/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_f2241.dir/feature_tests.c.o   -c /home/jrinder/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_f2241
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2241.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_f2241.dir/feature_tests.c.o  -o cmTC_f2241 
-make[1]: Leaving directory '/home/jrinder/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_f9a8d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f9a8d.dir/build.make CMakeFiles/cmTC_f9a8d.dir/build
+make[1]: Entering directory '/home/jrinder/CLionProjects/Scanner/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f9a8d.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_f9a8d.dir/feature_tests.c.o   -c /home/jrinder/CLionProjects/Scanner/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_f9a8d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9a8d.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_f9a8d.dir/feature_tests.c.o  -o cmTC_f9a8d 
+make[1]: Leaving directory '/home/jrinder/CLionProjects/Scanner/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -179,17 +179,17 @@ make[1]: Leaving directory '/home/jrinder/CLionProjects/untitled2/cmake-build-de
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/jrinder/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/jrinder/CLionProjects/Scanner/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3340d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3340d.dir/build.make CMakeFiles/cmTC_3340d.dir/build
-make[1]: Entering directory '/home/jrinder/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3340d.dir/feature_tests.c.o
-/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_3340d.dir/feature_tests.c.o   -c /home/jrinder/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_3340d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3340d.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_3340d.dir/feature_tests.c.o  -o cmTC_3340d 
-make[1]: Leaving directory '/home/jrinder/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_dd87f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dd87f.dir/build.make CMakeFiles/cmTC_dd87f.dir/build
+make[1]: Entering directory '/home/jrinder/CLionProjects/Scanner/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dd87f.dir/feature_tests.c.o
+/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_dd87f.dir/feature_tests.c.o   -c /home/jrinder/CLionProjects/Scanner/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_dd87f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd87f.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_dd87f.dir/feature_tests.c.o  -o cmTC_dd87f 
+make[1]: Leaving directory '/home/jrinder/CLionProjects/Scanner/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
