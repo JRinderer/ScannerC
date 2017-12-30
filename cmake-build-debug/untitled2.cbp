@@ -81,6 +81,9 @@
       <Unit filename="/home/jrinder/CLionProjects/Scanner/main.c">
          <Option target="untitled2"/>
       </Unit>
+      <Unit filename="/home/jrinder/CLionProjects/Scanner/scan.h">
+         <Option target="untitled2"/>
+      </Unit>
       <Unit filename="/home/jrinder/CLionProjects/Scanner/CMakeLists.txt">
           <Option virtualFolder="CMake Files\" />
       </Unit>

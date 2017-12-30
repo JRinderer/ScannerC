@@ -60,8 +60,20 @@ int main(int argc, char *argv[]) {
                 printf("Word %s on line # %d is outside the size limitation\n",str,curntLne);
                 exit(1);
             }
+        }else if (isspace(c)) || isExAccpetable(c)){
+            chrCount = 0;
+        }else{
+            printf("Invalid character '%c' at line # %d\n",c, curntLne);
+            isVald = 0;
         }
     }
 
+    if (isVald == 0){
+        printf("There is an error in the input file!\n");
+        exit(1);
+    }
+
+    rewind(filePtr);
+//================End validity check of charcaters======================
     return 0;
 }
