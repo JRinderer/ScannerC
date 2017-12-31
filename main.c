@@ -2,6 +2,10 @@
 #include <ctype.h>
 #include <string.h>
 #include <stdlib.h>
+#include <wordexp.h>
+#include <scan.h>
+#include "tokens.h"
+
 
 int MAX = 8;
 
@@ -75,5 +79,15 @@ int main(int argc, char *argv[]) {
 
     rewind(filePtr);
 //================End validity check of charcaters======================
+
+//================Start the scanner=====================================
+    TokenType tokenType = UNDEF;
+
+    while ((tokenType = getTokenType(filePtr)) != EOT) {}
+
+    /*---------/End Job-------------*/
+
+    fclose(filePtr);
+
     return 0;
 }
