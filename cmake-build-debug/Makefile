@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/jrinder/CLionProjects/ScannerC/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/opt/clion/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -77,6 +66,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/opt/clion/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named untitled2
+# Target rules for targets named Scanner
 
 # Build rule for target.
-untitled2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 untitled2
-.PHONY : untitled2
+Scanner: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Scanner
+.PHONY : Scanner
 
 # fast build rule for target.
-untitled2/fast:
-	$(MAKE) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/build
-.PHONY : untitled2/fast
+Scanner/fast:
+	$(MAKE) -f CMakeFiles/Scanner.dir/build.make CMakeFiles/Scanner.dir/build
+.PHONY : Scanner/fast
 
 main.o: main.c.o
 
@@ -129,7 +129,7 @@ main.o: main.c.o
 
 # target to build an object file
 main.c.o:
-	$(MAKE) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/main.c.o
+	$(MAKE) -f CMakeFiles/Scanner.dir/build.make CMakeFiles/Scanner.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -138,7 +138,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/main.c.i
+	$(MAKE) -f CMakeFiles/Scanner.dir/build.make CMakeFiles/Scanner.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -147,7 +147,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/main.c.s
+	$(MAKE) -f CMakeFiles/Scanner.dir/build.make CMakeFiles/Scanner.dir/main.c.s
 .PHONY : main.c.s
 
 scanner.o: scanner.c.o
@@ -156,7 +156,7 @@ scanner.o: scanner.c.o
 
 # target to build an object file
 scanner.c.o:
-	$(MAKE) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/scanner.c.o
+	$(MAKE) -f CMakeFiles/Scanner.dir/build.make CMakeFiles/Scanner.dir/scanner.c.o
 .PHONY : scanner.c.o
 
 scanner.i: scanner.c.i
@@ -165,7 +165,7 @@ scanner.i: scanner.c.i
 
 # target to preprocess a source file
 scanner.c.i:
-	$(MAKE) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/scanner.c.i
+	$(MAKE) -f CMakeFiles/Scanner.dir/build.make CMakeFiles/Scanner.dir/scanner.c.i
 .PHONY : scanner.c.i
 
 scanner.s: scanner.c.s
@@ -174,7 +174,7 @@ scanner.s: scanner.c.s
 
 # target to generate assembly for a file
 scanner.c.s:
-	$(MAKE) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/scanner.c.s
+	$(MAKE) -f CMakeFiles/Scanner.dir/build.make CMakeFiles/Scanner.dir/scanner.c.s
 .PHONY : scanner.c.s
 
 # Help Target
@@ -183,9 +183,9 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... untitled2"
+	@echo "... edit_cache"
+	@echo "... Scanner"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -1,0 +1,93 @@
+This scratch.txt document will serve as the running notepad for the project. Other documentation may be written as time
+goes on and the project advances, but this scratch.txt will serve as the active notepad. Below will be notes on the
+compiler as a whole, as well as specific portions. Scanner, Parser, Linker, Assembly, etc. Each note entered will be
+dated and boxed off for the relevant time/date it was entered like so:
+
+Example:
+
+===================================12/31/2017 - START - 08:57 - JRinderer:=============================================
+******SUMMARY: Each section will contain a summary of the notes to follow. Today is Dec 31st 2017.
+-----------------------------------------------------------------------------------------------------------------------
+    -Today is December 31st 2017 and this noted repeats this information
+    -More Notes...
+    -...
+===================================12/31/2017 - END - 20:00 - JRinderer================================================
+
+The format above will be followed throughout the notebook in order to break up time/dates and progress.
+
+===================================12/31/2017 - START - 09:01 - JRinderer:=============================================
+*****SUMMARY: Outlined below are the types of: {Characters, Numbers, Operators, etc} that will be found in the KLUMP
+*****language. Brief description will be provided.
+-----------------------------------------------------------------------------------------------------------------------
+    -Character set for KLUMP: These characters are either **char** or **int** types
+        1. A - Z (FORCE UPPER CASE ON ALL CHARACTERS) -- Break out into LETTERS TYPE?
+        2. 0 - 9 -- Break out into NUMBERS TYPE?
+
+    -Reserved Words for KLUMP: These words are key words that indicate some action for the compiler to take
+        1. AND
+        2. ARRAY
+        3. ASCII
+        4. BEGIN
+        5. BOOL
+        6. BREAK
+        7. CALL
+        8. CASE
+        9. CONST
+        10. CSTRING
+        11. DCL
+        12. DECIMAL
+        13. DEFAULT
+        14. DO
+        15. DOWNTO
+        16. ELSE
+        17. END
+        18. FOR
+        19. GLOBAL
+        20. GOTO
+        21. IF
+        22. INT
+        23. NEXT
+        24. NOT
+        25. NUMBER
+        26. OF
+        27. OR
+        28. PROC
+        29. PROCEDURE
+        30. READ
+        31. READLN
+        32. REAL
+        33. RECORD
+        34. RETURN
+        35. STRING
+        36. THEN
+        37. TO
+        38. TYPE
+        39. VAR
+        40. WHILE
+        41. WRITE
+        42. WRITELN
+
+     -Operators for KLUMP: These will need further work to break down into Sub groups mathematical vs operational
+        1. :
+        2. ;
+        3. .
+        4. (
+        5. )
+        6. {
+        7. }
+        8. [
+        9. ]
+        10. #
+        11. :=
+        12. =
+        13. <>
+        14. <
+        15. >
+        16. <=
+        17. >=
+        18. +
+        19. -
+        20. *
+        21. /
+        22. %
+      *****Note on operators... Consider making categories comparison, mathematics. gramatical... etc

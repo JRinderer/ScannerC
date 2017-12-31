@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jrinder/CLionProjects/ScannerC/main.c
+token.h
+/home/jrinder/CLionProjects/ScannerC/token.h
+stdio.h
+-
+ctype.h
+-
+memory.h
+-
+stdlib.h
+-
+scanner.h
+/home/jrinder/CLionProjects/ScannerC/scanner.h
+
+/home/jrinder/CLionProjects/ScannerC/scanner.c
+stdio.h
+-
+strings.h
+-
+ctype.h
+-
+memory.h
+-
+token.h
+/home/jrinder/CLionProjects/ScannerC/token.h
+scanner.h
+/home/jrinder/CLionProjects/ScannerC/scanner.h
+symdef.h
+/home/jrinder/CLionProjects/ScannerC/symdef.h
+
+/home/jrinder/CLionProjects/ScannerC/scanner.h
+
+/home/jrinder/CLionProjects/ScannerC/symdef.h
+
+/home/jrinder/CLionProjects/ScannerC/token.h
+

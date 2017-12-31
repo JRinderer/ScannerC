@@ -60,39 +60,39 @@ CMAKE_SOURCE_DIR = /home/jrinder/CLionProjects/ScannerC
 CMAKE_BINARY_DIR = /home/jrinder/CLionProjects/ScannerC/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/untitled2.dir
+# Target rules for target CMakeFiles/Scanner.dir
 
 # All Build rule for target.
-CMakeFiles/untitled2.dir/all:
-	$(MAKE) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/depend
-	$(MAKE) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jrinder/CLionProjects/ScannerC/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target untitled2"
-.PHONY : CMakeFiles/untitled2.dir/all
+CMakeFiles/Scanner.dir/all:
+	$(MAKE) -f CMakeFiles/Scanner.dir/build.make CMakeFiles/Scanner.dir/depend
+	$(MAKE) -f CMakeFiles/Scanner.dir/build.make CMakeFiles/Scanner.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jrinder/CLionProjects/ScannerC/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target Scanner"
+.PHONY : CMakeFiles/Scanner.dir/all
 
 # Include target in all.
-all: CMakeFiles/untitled2.dir/all
+all: CMakeFiles/Scanner.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/untitled2.dir/rule: cmake_check_build_system
+CMakeFiles/Scanner.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jrinder/CLionProjects/ScannerC/cmake-build-debug/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/untitled2.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Scanner.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jrinder/CLionProjects/ScannerC/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/untitled2.dir/rule
+.PHONY : CMakeFiles/Scanner.dir/rule
 
 # Convenience name for target.
-untitled2: CMakeFiles/untitled2.dir/rule
+Scanner: CMakeFiles/Scanner.dir/rule
 
-.PHONY : untitled2
-
-# clean rule for target.
-CMakeFiles/untitled2.dir/clean:
-	$(MAKE) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/clean
-.PHONY : CMakeFiles/untitled2.dir/clean
+.PHONY : Scanner
 
 # clean rule for target.
-clean: CMakeFiles/untitled2.dir/clean
+CMakeFiles/Scanner.dir/clean:
+	$(MAKE) -f CMakeFiles/Scanner.dir/build.make CMakeFiles/Scanner.dir/clean
+.PHONY : CMakeFiles/Scanner.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Scanner.dir/clean
 
 .PHONY : clean
 

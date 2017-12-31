@@ -21,7 +21,7 @@ typedef enum {
 /*
 	REL_OP_EQUAL, // ==
 	REL_OP_GREATER, // >
-	REL_OP_LESS_THAN, // <
+	REL_OP_LESS_THAN, //
 	REL_OP_NOT_EQUAL, // =!=
 	REL_OP_NOT_GREATER, // =<
 	REL_OP_NOT_LESS_THAN, // =>

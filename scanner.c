@@ -20,7 +20,7 @@ TokenType getTokenType(FILE *filePtr) {
 
     while ((ch = fgetc(filePtr)) != EOF) {
         if (ch == '\n') {
-            lineNum++;
+            lineNum++; // checks to see if end of line and increments if so
         }
 
         // Ignore comment starting with // to the end of line
