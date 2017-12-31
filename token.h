@@ -2,32 +2,8 @@
 // Created by jrinder on 12/30/17.
 //
 
-#ifndef UNTITLED2_TOKENS_H
-#define UNTITLED2_TOKENS_H
-
-#endif //UNTITLED2_TOKENS_H
-
-/*
-* CS4280 Fall 2014 - Project P1
-* Author: Loc Nguyen
-*
-* $Id: token.h,v 1.2 2014/10/26 17:50:30 lhn7c5 Exp lhn7c5 $
-* $Source: /accounts/students/l/lhn7c5/4280/P1/RCS/token.h,v $
-* Last modified:
-*       by $Author: lhn7c5 $
-*       on $Date: 2014/10/26 17:50:30 $
-*
-* $Log: token.h,v $
-* Revision 1.2  2014/10/26 17:50:30  lhn7c5
-* Final submission.
-*
-* Revision 1.1  2014/10/23 20:40:25  lhn7c5
-* Initial revision
-*
-*/
-
-#ifndef TOKEN_H
-#define TOKEN_H
+#ifndef SCANNER_TOKEN_H
+#define SCANNER_TOKEN_H
 
 #define MAX 8 // max length of each word string
 #define LIMIT 200 // max number of word strings in an input file
@@ -80,5 +56,4 @@ typedef struct {
 
 
 
-#endif
-
+#endif //SCANNER_TOKEN_H

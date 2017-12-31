@@ -1,6 +1,7 @@
-cmake_minimum_required(VERSION 3.5)
-project(untitled2 C)
+cmake_minimum_required(VERSION 3.8)
+project(Scanner)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(untitled2 main.c scan.h tokens.h)
+set(SOURCE_FILES main.c scanner.h token.h symdef.h scanner.c)
+add_executable(Scanner ${SOURCE_FILES} scanner.h token.h symdef.h)

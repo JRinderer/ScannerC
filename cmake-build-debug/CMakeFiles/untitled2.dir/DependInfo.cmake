@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/jrinder/CLionProjects/Scanner/main.c" "/home/jrinder/CLionProjects/Scanner/cmake-build-debug/CMakeFiles/untitled2.dir/main.c.o"
+  "/home/jrinder/CLionProjects/ScannerC/main.c" "/home/jrinder/CLionProjects/ScannerC/cmake-build-debug/CMakeFiles/untitled2.dir/main.c.o"
+  "/home/jrinder/CLionProjects/ScannerC/scanner.c" "/home/jrinder/CLionProjects/ScannerC/cmake-build-debug/CMakeFiles/untitled2.dir/scanner.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
