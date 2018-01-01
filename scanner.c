@@ -113,7 +113,7 @@ TokenType getTokenType(FILE *filePtr) {
 void printSummary() {
     printf("----------BEGIN SUMMARY---------- \n");
 
-    printf("***Note format: token (line #) \n\n");
+    printf("***Note format: token lexeme (line #) \n\n");
 
     printf("Total %d KEYWORDS found are: \n", keyi);
     printKeywords();
@@ -206,28 +206,28 @@ void printWords() {
     // printf("Num of words = %d \n", wordi);
     int i;
     for (i = 0; i < wordi; i++) {
-        printf("%s \t (line #%d) \n", words[i], wordLineNums[i]);
+        printf("%s \t\t (line #%d) \n", words[i], wordLineNums[i]);
     }
 }
 
 void printKeywords() {
     int i;
     for (i = 0; i < keyi; i++) {
-        printf("%s \t (line #%d) \n", keys[i], keyLineNums[i]);
+        printf("%s \t\t %s \t\t (line #%d) \n", keys[i], words[i], keyLineNums[i]); //
     }
 }
 
 void printNumbers() {
     int i;
     for (i = 0; i < numi; i++) {
-        printf("%s \t (line #%d) \n", nums[i], numLineNums[i]);
+        printf("%s \t\t (line #%d) \n", nums[i], numLineNums[i]);
     }
 }
 
 void printIdentifiers() {
     int i;
     for (i = 0; i < ideni; i++) {
-        printf("%s \t (line #%d) \n", idens[i], idenLineNums[i]);
+        printf("%s \t\t (line #%d) \n", idens[i], idenLineNums[i]);
     }
 }
 
@@ -275,7 +275,7 @@ int isExAcceptableChar(char c) {
     if (c == '.' || c == '(' || c == ')' || c == ',' || c =='{' || c == '}' ||
         c == ';' || c == '[' || c == ']' ||
         c == ':' || c == '+' || c == '-' || c == '*' || c == '/' || c == '%' ||
-        c == '=' || c == '<' || c == '>' || c == '!'
+        c == '=' || c == '<' || c == '>' || c == '!' || c == '"'
         /* || c == '#' */ ) {
 
         return 1;

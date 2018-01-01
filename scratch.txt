@@ -210,8 +210,13 @@
                 c. LINE #
 
         -Adjusted to read for KLUMP KEYWORDS. Successfully converted all keywords to upper case.
+
         -Wrote mkeUprCse function to force all chars into upper case format.
+
         -Remaining steps:
             1. Move LINE to a 3rd column.
             2. Insert any constants in second column.
             3. Output to .txt file.
+            4. Need to store constants. Any word that isn't a reserved word is constant.
+
+        -Method to check if the word being scanned is a RESERVED word. If not then store as a CONSTANT.
