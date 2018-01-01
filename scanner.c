@@ -12,6 +12,7 @@
 #include "scanner.h"
 #include "symdef.h"
 
+
 /*--------------------Begin getTokenType()--------------------*/
 
 TokenType getTokenType(FILE *filePtr) {
@@ -19,6 +20,7 @@ TokenType getTokenType(FILE *filePtr) {
     char ch;
 
     while ((ch = fgetc(filePtr)) != EOF) {
+        ch = mkeUprCse(ch);
         if (ch == '\n') {
             lineNum++; // checks to see if end of line and increments if so
         }
@@ -35,7 +37,7 @@ TokenType getTokenType(FILE *filePtr) {
         if (isalpha(ch)) {
             words[wordi][wordj++] = ch;
             while (isalpha(ch = fgetc(filePtr))) {
-                words[wordi][wordj++] = ch;
+                words[wordi][wordj++] = mkeUprCse(ch);
             }
             words[wordi][wordj] = '\0';
             wordLineNums[wordi] = lineNum;
@@ -172,7 +174,7 @@ int isDelimiter(char c) {
 int isKeyword(char *str) {
     int i;
     int result = 0; // false
-    for (i = 0; i < 15; i++) {
+    for (i = 0; i < 42; i++) {
         if (!strcasecmp(keywords[i], str))
             result = 1;
     }
@@ -261,6 +263,11 @@ void printToken(Token *token) {
     printf("Token type: %s |  Instance: %s | Line: %d \n",
            tokenTypeStrings[index], token->instance, token->lineNum);
 
+}
+
+int mkeUprCse(int c){
+    c = putchar(toupper(c));
+    return c;
 }
 
 // Besides English letters, and digits, these are extra acceptable characters

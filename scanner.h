@@ -10,6 +10,7 @@ int isDelimiter(char);
 int isOtherOperators(char);
 int isStartRelationalOperator(char);
 
+
 void printToken(Token *); // func prototype
 void splitWords();
 void printWords();
@@ -20,5 +21,6 @@ void printDelimiters();
 void printOtherOperators();
 void printRelationalOperators();
 void printSummary();
+
 
 #endif //SCANNER_SCANNER_H

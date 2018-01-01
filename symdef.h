@@ -5,14 +5,14 @@
 #ifndef SCANNER_SYMDEF_H
 #define SCANNER_SYMDEF_H
 
-char *keywords[15] = {"start", "finish", "then", "if", "repeat", "var",
+/*char *keywords[15] = {"start", "finish", "then", "if", "repeat", "var",
                       "int", "float", "do",
-                      "read", "print", "void", "return", "dummy", "program"};
+                      "read", "print", "void", "return", "dummy", "program"};*/
 //====================KLUMP LEXEMES START==========================================================
 //********************All points enclosed in these comments are relevant to the KLUMP**************
 //********************compiler. The key words, characters, numbers, etc will be called out*********
     //================RESERVED WORDS FOR KLUMP==================================================
-    char *keywordS[42] = {"AND", "ARRAY", "ASCII", "BEGIN","BOOL","BREAK", "CALL",
+    char *keywords[42] = {"AND", "ARRAY", "ASCII", "BEGIN","BOOL","BREAK", "CALL",
                          "CASE","CONST","CSTRING","DCL","DECIMAL","DEFAULT","DO",
                          "DOWNTO","ELSE","END","FOR","GLOBAL","GOTO","IF","INT","NEXT",
                          "NOT","NUMBER","OF","OR","PROC","PROCEDURE","READ","READLN",

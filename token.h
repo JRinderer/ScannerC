@@ -5,8 +5,8 @@
 #ifndef SCANNER_TOKEN_H
 #define SCANNER_TOKEN_H
 
-#define MAX 8 // max length of each word string
-#define LIMIT 200 // max number of word strings in an input file
+#define MAX 30 // max length of each word string
+#define LIMIT 800 // max number of word strings in an input file
 
 typedef enum {
     IDENTIFIER,

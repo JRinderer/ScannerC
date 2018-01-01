@@ -1,1 +1,1 @@
-/usr/bin/cc  -g   CMakeFiles/Scanner.dir/main.c.o CMakeFiles/Scanner.dir/scanner.c.o  -o Scanner 
+/usr/bin/cc -g   CMakeFiles/Scanner.dir/main.c.o CMakeFiles/Scanner.dir/scanner.c.o  -o Scanner 
