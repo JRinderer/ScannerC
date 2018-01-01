@@ -70,7 +70,8 @@
         ***************************************************************************************************************
     ===================================12/31/2017 - END - 11:01 - JRinderer **1/1/2018 JRinderer**:====================
 ===================================END INTRO AND SUMMARY===============================================================
-
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 ===================================12/31/2017 - START - 09:01 - JRinderer:=============================================
     *****SUMMARY: Outlined below are the basic overall requirements for the KLUMP languaged as well as the types of:
     *****{Characters, Numbers, Operators, etc} that will be found in the KLUMP. language. Brief description
@@ -182,4 +183,28 @@
                   4. /
                   5. %
                   6. = (not to be confused with := which sets equality similar to C == an =
-                  
+===================================12/31/2017 - END 22:00 - JRinderer==================================================
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+===================================1/1/2018 - Start 09:10 - JRinderer==================================================
+    ********Summary: Today I'm focusing on making the demo scanner output a file tht it can pass to a parser. Right
+    the current scanner needs to be modified to look at the KLUMP lexeme's. The ultimate goal is to generate a .txt
+    (for now) that will meet the criteria outlined below.
+
+        -File output from the scanner program:
+            1. Data output in column type format.
+            2. Column 1 should contain the TOKEN type.
+            3. Column 2 should contain the LEXEME.uld
+            4. Column 3 (possible add) should contain LINE #.
+            5. The program should then generate a .txt file that meets this critiera.
+            6. The output file generated should be saved in the directory working directory.
+
+        -Notes on the current program:
+            1. The current program currently printns out the LEXEME as a TOKEN and the line number.
+            2. Must be modified in the following ways:
+                a. Current TOKEN -> LEXEME
+                b. Must add TOKEN (from KLUMP).OPERATOR, CONDITIONAL OPERATOR etc.
+                3. Store line numbers so error messages can be generated.
+            3.Output a file that displays only the following.
+                a. TOKEN
+                b. LEXEME
+                c. LINE #

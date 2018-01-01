@@ -33,7 +33,7 @@ char *keywords[15] = {"start", "finish", "then", "if", "repeat", "var",
     //*****************Numbers will be recognized like int in C. They can be used to preform*****
     //*****************mathematics, indicate address space, etc. They will be handled like int***
     //=================MATH OPERATORS FOR KLUMP==================================================
-char mthOperators[5] = {'+', '-','*','/', '%'};
+    char mthOperators[5] = {'+', '-','*','/', '%'};
     //=================END OF MATH OPERATORS FOR KLUMP===========================================
     //*****************Mather operators can be used to preform mathematics on numbers within*****
     //*****************language.*****************************************************************
