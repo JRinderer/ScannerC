@@ -211,8 +211,6 @@
 
         -Adjusted to read for KLUMP KEYWORDS. Successfully converted all keywords to upper case.
 
-        -Wrote mkeUprCse function to force all chars into upper case format.
-
         -Remaining steps:
             1. Move LINE to a 3rd column.
             2. Insert any constants in second column.
@@ -220,3 +218,35 @@
             4. Need to store constants. Any word that isn't a reserved word is constant.
 
         -Method to check if the word being scanned is a RESERVED word. If not then store as a CONSTANT.
+
+        -Example of how program currently prints out:
+
+            Total 5 KEYWORDS found are:
+            IF 		 IF 		 (line #2)
+            THEN 		 X 		 (line #2)
+            ELSE 		 THEN 		 (line #4)
+            IF 		 A 		 (line #4)
+            THEN 		 HELLO 		 (line #4)
+
+        Example of how we want to have this print out:
+
+            PUNCT       {
+            KEYWORD     IF
+            CONSTANT    X
+            OPERATOR    =
+            NUMBER      1
+            KEYWORD     THEN
+            CONSTANT    A
+            OPERATOR    =
+            CONSTANT    "HELLO"
+            KEYWORD     ELSE
+            KEYWORD     IF
+            CONSTANT    X
+            OPERATOR    =
+            NUMBER      2
+            KEYWORD     THEN
+            CONSTANT    B
+            OPERATOR    =
+            CONSTANT    "BYE!"
+            PUNCT       }
+
