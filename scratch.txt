@@ -186,16 +186,16 @@
 ===================================12/31/2017 - END 22:00 - JRinderer==================================================
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 ===================================1/1/2018 - Start 09:10 - JRinderer==================================================
-    ********Summary: Today I'm focusing on making the demo scanner output a file tht it can pass to a parser. Right
-    the current scanner needs to be modified to look at the KLUMP lexeme's. The ultimate goal is to generate a .txt
+    ********Summary: Today I'm focusing on making the demo scanner output a file that it can pass to a parser. Right
+    now the current scanner needs to be modified to look at the KLUMP lexeme's. The ultimate goal is to generate a .txt
     (for now) that will meet the criteria outlined below.
 
         -File output from the scanner program:
             1. Data output in column type format.
             2. Column 1 should contain the TOKEN type.
-            3. Column 2 should contain the LEXEME.uld
+            3. Column 2 should contain the LEXEME type.
             4. Column 3 (possible add) should contain LINE #.
-            5. The program should then generate a .txt file that meets this critiera.
+            5. The program should then generate a .txt file that meets this criteria.
             6. The output file generated should be saved in the directory working directory.
 
         -Notes on the current program:
@@ -222,11 +222,11 @@
         -Example of how program currently prints out:
 
             Total 5 KEYWORDS found are:
-            IF 		 IF 		 (line #2)
-            THEN 		 X 		 (line #2)
-            ELSE 		 THEN 		 (line #4)
+            IF 		 IF 	 (line #2)
+            THEN 	 X 		 (line #2)
+            ELSE 	 THEN 	 (line #4)
             IF 		 A 		 (line #4)
-            THEN 		 HELLO 		 (line #4)
+            THEN 	 HELLO   (line #4)
 
         Example of how we want to have this print out:
 
@@ -250,3 +250,5 @@
             CONSTANT    "BYE!"
             PUNCT       }
 
+        Note: Current Program prints Each Type in order without paying attention to order within program. Must modify
+        to print in order with TOKEN    LEXEME      LINE #

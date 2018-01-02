@@ -1,6 +1,7 @@
 {
 if x = 1 then
-    a = "Hello"
+    a => "Hello"
 else if x = 2 then
-    b = "Bye!"
+    b =!= "Bye!"
+    c = a + b
 }
