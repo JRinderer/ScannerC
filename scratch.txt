@@ -252,3 +252,13 @@
 
         Note: Current Program prints Each Type in order without paying attention to order within program. Must modify
         to print in order with TOKEN    LEXEME      LINE #
+===================================1/1/2018 - END 22:00 - JRinderer====================================================
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+===================================1/2/2018 - START 18:58 - JRinderer==================================================
+    *******Summary: Focus on modifying the print statements to print TOKEN type and the LEXEME. Determine best method
+    to accomplish this
+
+    1. As items are scanned determine what they are
+    2. Once determined print to TOKEN type and the LEXEME.
+
+    Started breaking larger Scanner.c file into smaller functions to make reading easier.

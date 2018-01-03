@@ -9,7 +9,7 @@ int isExAcceptableChar(char);
 int isDelimiter(char);
 int isOtherOperators(char);
 int isStartRelationalOperator(char);
-
+int isChar(char);
 
 void printToken(Token *); // func prototype
 void splitWords();

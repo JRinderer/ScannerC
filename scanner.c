@@ -7,6 +7,7 @@
 #include <strings.h>
 #include <ctype.h>
 #include <memory.h>
+#include <jmorecfg.h>
 
 #include "token.h"
 #include "scanner.h"
@@ -34,6 +35,18 @@ TokenType getTokenType(FILE *filePtr) {
                 fseek(filePtr, -1, SEEK_CUR);
         }
 
+        if(isChar(ch)==1){
+            words[wordi][wordj++] = ch;
+            while (isalpha(ch = fgetc(filePtr))) {
+                words[wordi][wordj++] = mkeUprCse(ch);
+            }
+            words[wordi][wordj] = '\0';
+            wordLineNums[   wordi] = lineNum;
+            wordi++; wordj = 0;
+            fseek(filePtr, -1, SEEK_CUR);
+
+        }
+/*------------------REPLACE THIS SECTION WITH isChar funct------------------------------------
         if (isalpha(ch)) {
             words[wordi][wordj++] = ch;
             while (isalpha(ch = fgetc(filePtr))) {
@@ -44,7 +57,7 @@ TokenType getTokenType(FILE *filePtr) {
             wordi++; wordj = 0;
             fseek(filePtr, -1, SEEK_CUR);
         }
-
+---------------------------------------------------------------------------------------------*/
         else if (isdigit(ch)) {
             nums[numi][numj++] = ch;
             while (isdigit(ch = fgetc(filePtr))) {
@@ -101,14 +114,25 @@ TokenType getTokenType(FILE *filePtr) {
         }
     } // end while
 
-    splitWords();
+    //splitWords();
 
-    printSummary();
+    //printSummary();
 
     return EOT; // end of token
 }
 
 /*--------------------/End getTokenType()--------------------*/
+
+//-------------------Determine char type---------------------
+int isChar(char c){
+    if (isalpha(c)) {
+        return 1;
+    }else {
+        return 0;
+    }
+}
+//------------------Scan Words in----------------------------
+
 
 void printSummary() {
     printf("----------BEGIN SUMMARY---------- \n");
